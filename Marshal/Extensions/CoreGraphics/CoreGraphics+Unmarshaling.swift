@@ -24,11 +24,8 @@ extension CGPoint: Unmarshaling {
 
 extension CGSize: Unmarshaling {
     public init(object: MarshaledObject) throws {
-        let width: CGFloat = try object.valueForKey("width")
-        let height: CGFloat = try object.valueForKey("height")
-        
-        self.width = width
-        self.height = height
+        self.width = try object.valueForKey("width")
+        self.height = try object.valueForKey("height")
     }
 }
 
@@ -46,10 +43,18 @@ extension CGRect: Unmarshaling {
 
 extension CGVector: Unmarshaling {
     public init(object: MarshaledObject) throws {
-        let dx: CGFloat = try object.valueForKey("dx")
-        let dy: CGFloat = try object.valueForKey("dy")
-        
-        self.dx = dx
-        self.dy = dy
+        self.dx = try object.valueForKey("dx")
+        self.dy = try object.valueForKey("dy")
+    }
+}
+
+extension CGAffineTransform: Unmarshaling {
+    public init(object: MarshaledObject) throws {
+        self.a = try object.valueForKey("a")
+        self.b = try object.valueForKey("b")
+        self.c = try object.valueForKey("c")
+        self.d = try object.valueForKey("d")
+        self.tx = try object.valueForKey("tx")
+        self.ty = try object.valueForKey("ty")
     }
 }

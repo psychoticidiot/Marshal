@@ -56,3 +56,17 @@ extension CGVector: Marshaling {
         return result
     }
 }
+
+extension CGAffineTransform: Marshaling {
+    public func marshal() -> MarshaledObject {
+        var result = MarshaledObject()
+        result["a"] = self.a
+        result["b"] = self.b
+        result["c"] = self.c
+        result["d"] = self.d
+        result["tx"] = self.tx
+        result["ty"] = self.ty
+        
+        return result
+    }
+}
