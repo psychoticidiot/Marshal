@@ -71,7 +71,14 @@ public extension SKScene { /* UnmarshalUpdating */
             self.view?.update(object: view)
         }
         if let physicsWorld: MarshaledObject = try? object.valueForKey("physicsWorld") {
-            self.physicsWorld.update(object: physicsWorld)
+// NOTE: this method causes a crash for some reason:
+//            self.physicsWorld.update(object: physicsWorld)
+            if let gravity: CGVector = try? physicsWorld.valueForKey("gravity") {
+                self.physicsWorld.gravity = gravity
+            }
+            if let speed: CGFloat = try? physicsWorld.valueForKey("speed") {
+                self.physicsWorld.speed = speed
+            }
         }
 // TODO: update listener
 //
