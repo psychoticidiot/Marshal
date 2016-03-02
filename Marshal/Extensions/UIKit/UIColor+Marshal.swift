@@ -37,7 +37,7 @@ extension UIColor: Marshaling {
         var green: CGFloat = 0
         var blue: CGFloat = 0
         var alpha: CGFloat = 1
-        self.getRed( &red, green: &green, blue: &blue, alpha: &alpha )
+        self.getRed(&red, green: &green, blue: &blue, alpha: &alpha)
         
         var result = MarshaledObject()
         result["red"] = red

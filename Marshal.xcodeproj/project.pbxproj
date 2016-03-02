@@ -23,6 +23,33 @@
 		AE0243591C814FF900E78609 /* simd+Unmarshaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0243581C814FF900E78609 /* simd+Unmarshaling.swift */; };
 		AE02435B1C81514E00E78609 /* NSColor+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02435A1C81514E00E78609 /* NSColor+Marshal.swift */; };
 		AE5720E71C7FE97E00D45DE3 /* TestSimpleSet.json in Resources */ = {isa = PBXBuildFile; fileRef = AE5720E61C7FE97E00D45DE3 /* TestSimpleSet.json */; };
+		AEBD03101C863DE800D94D5F /* SKView+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD030F1C863DE800D94D5F /* SKView+Marshal.swift */; };
+		AEBD03131C86491400D94D5F /* CGLineCap+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD03121C86491400D94D5F /* CGLineCap+String.swift */; };
+		AEBD03151C8649A300D94D5F /* CGLineJoin+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD03141C8649A300D94D5F /* CGLineJoin+String.swift */; };
+		AEBD03181C864A3700D94D5F /* SKBlendMode+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD03171C864A3700D94D5F /* SKBlendMode+String.swift */; };
+		AEBD031A1C864AA700D94D5F /* SKInterpolationMode+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD03191C864AA700D94D5F /* SKInterpolationMode+String.swift */; };
+		AEBD031C1C864B0000D94D5F /* SKLabelHorizontalAlignmentMode+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD031B1C864B0000D94D5F /* SKLabelHorizontalAlignmentMode+String.swift */; };
+		AEBD031E1C864B5900D94D5F /* SKLabelVerticalAlignmentMode+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD031D1C864B5900D94D5F /* SKLabelVerticalAlignmentMode+String.swift */; };
+		AEBD03201C864BD000D94D5F /* SKParticleRenderOrder+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD031F1C864BD000D94D5F /* SKParticleRenderOrder+String.swift */; };
+		AEBD03221C864C4700D94D5F /* SKRepeatMode+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD03211C864C4700D94D5F /* SKRepeatMode+String.swift */; };
+		AEBD03241C864CC600D94D5F /* SKSceneScaleMode+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD03231C864CC600D94D5F /* SKSceneScaleMode+String.swift */; };
+		AEBD03261C864DC300D94D5F /* SKKeyframeSequence+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD03251C864DC300D94D5F /* SKKeyframeSequence+Marshal.swift */; };
+		AEBD03281C864ECD00D94D5F /* SKReachConstraints+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD03271C864ECD00D94D5F /* SKReachConstraints+Marshal.swift */; };
+		AEBD032C1C86511A00D94D5F /* SKPhysicsBody+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD032B1C86511A00D94D5F /* SKPhysicsBody+Marshal.swift */; };
+		AEBD032E1C86557900D94D5F /* SKPhysicsWorld+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD032D1C86557900D94D5F /* SKPhysicsWorld+Marshal.swift */; };
+		AEBD03301C8656A100D94D5F /* SKNode+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD032F1C8656A100D94D5F /* SKNode+Marshal.swift */; };
+		AEBD03321C865D8000D94D5F /* SKSpriteNode+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD03311C865D8000D94D5F /* SKSpriteNode+Marshal.swift */; };
+		AEBD03341C86619700D94D5F /* SKVideoNode+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD03331C86619700D94D5F /* SKVideoNode+Marshal.swift */; };
+		AEBD03361C86629F00D94D5F /* SKLabelNode+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD03351C86629F00D94D5F /* SKLabelNode+Marshal.swift */; };
+		AEBD03381C86650900D94D5F /* SKShapeNode+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD03371C86650900D94D5F /* SKShapeNode+Marshal.swift */; };
+		AEBD033A1C86687C00D94D5F /* SKEmitterNode+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD03391C86687C00D94D5F /* SKEmitterNode+Marshal.swift */; };
+		AEBD033C1C86718E00D94D5F /* SKCropNode+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD033B1C86718E00D94D5F /* SKCropNode+Marshal.swift */; };
+		AEBD033E1C8672A900D94D5F /* SKEffectNode+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD033D1C8672A900D94D5F /* SKEffectNode+Marshal.swift */; };
+		AEBD03401C86746F00D94D5F /* SKScene+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD033F1C86746F00D94D5F /* SKScene+Marshal.swift */; };
+		AEBD03421C8677CD00D94D5F /* SKLightNode+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD03411C8677CD00D94D5F /* SKLightNode+Marshal.swift */; };
+		AEBD03441C86795100D94D5F /* SKFieldNode+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD03431C86795100D94D5F /* SKFieldNode+Marshal.swift */; };
+		AEBD03461C867B9800D94D5F /* SKCameraNode+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD03451C867B9800D94D5F /* SKCameraNode+Marshal.swift */; };
+		AEBD03481C867C6600D94D5F /* SKAudioNode+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD03471C867C6600D94D5F /* SKAudioNode+Marshal.swift */; };
 		AED371AC1C8636F200494008 /* UIColor+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED371AB1C8636F200494008 /* UIColor+Marshal.swift */; };
 		AFBED2531C7E1AAB00622331 /* Marshal.h in Headers */ = {isa = PBXBuildFile; fileRef = AFBED2521C7E1AAB00622331 /* Marshal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFBED25A1C7E1AAB00622331 /* Marshal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBED24F1C7E1AAB00622331 /* Marshal.framework */; };
@@ -65,6 +92,33 @@
 		AE0243581C814FF900E78609 /* simd+Unmarshaling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "simd+Unmarshaling.swift"; sourceTree = "<group>"; };
 		AE02435A1C81514E00E78609 /* NSColor+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+Marshal.swift"; sourceTree = "<group>"; };
 		AE5720E61C7FE97E00D45DE3 /* TestSimpleSet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestSimpleSet.json; sourceTree = "<group>"; };
+		AEBD030F1C863DE800D94D5F /* SKView+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKView+Marshal.swift"; sourceTree = "<group>"; };
+		AEBD03121C86491400D94D5F /* CGLineCap+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGLineCap+String.swift"; sourceTree = "<group>"; };
+		AEBD03141C8649A300D94D5F /* CGLineJoin+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGLineJoin+String.swift"; sourceTree = "<group>"; };
+		AEBD03171C864A3700D94D5F /* SKBlendMode+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKBlendMode+String.swift"; sourceTree = "<group>"; };
+		AEBD03191C864AA700D94D5F /* SKInterpolationMode+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKInterpolationMode+String.swift"; sourceTree = "<group>"; };
+		AEBD031B1C864B0000D94D5F /* SKLabelHorizontalAlignmentMode+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKLabelHorizontalAlignmentMode+String.swift"; sourceTree = "<group>"; };
+		AEBD031D1C864B5900D94D5F /* SKLabelVerticalAlignmentMode+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKLabelVerticalAlignmentMode+String.swift"; sourceTree = "<group>"; };
+		AEBD031F1C864BD000D94D5F /* SKParticleRenderOrder+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKParticleRenderOrder+String.swift"; sourceTree = "<group>"; };
+		AEBD03211C864C4700D94D5F /* SKRepeatMode+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKRepeatMode+String.swift"; sourceTree = "<group>"; };
+		AEBD03231C864CC600D94D5F /* SKSceneScaleMode+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKSceneScaleMode+String.swift"; sourceTree = "<group>"; };
+		AEBD03251C864DC300D94D5F /* SKKeyframeSequence+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKKeyframeSequence+Marshal.swift"; sourceTree = "<group>"; };
+		AEBD03271C864ECD00D94D5F /* SKReachConstraints+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKReachConstraints+Marshal.swift"; sourceTree = "<group>"; };
+		AEBD032B1C86511A00D94D5F /* SKPhysicsBody+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKPhysicsBody+Marshal.swift"; sourceTree = "<group>"; };
+		AEBD032D1C86557900D94D5F /* SKPhysicsWorld+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKPhysicsWorld+Marshal.swift"; sourceTree = "<group>"; };
+		AEBD032F1C8656A100D94D5F /* SKNode+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Marshal.swift"; sourceTree = "<group>"; };
+		AEBD03311C865D8000D94D5F /* SKSpriteNode+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKSpriteNode+Marshal.swift"; sourceTree = "<group>"; };
+		AEBD03331C86619700D94D5F /* SKVideoNode+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKVideoNode+Marshal.swift"; sourceTree = "<group>"; };
+		AEBD03351C86629F00D94D5F /* SKLabelNode+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKLabelNode+Marshal.swift"; sourceTree = "<group>"; };
+		AEBD03371C86650900D94D5F /* SKShapeNode+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKShapeNode+Marshal.swift"; sourceTree = "<group>"; };
+		AEBD03391C86687C00D94D5F /* SKEmitterNode+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKEmitterNode+Marshal.swift"; sourceTree = "<group>"; };
+		AEBD033B1C86718E00D94D5F /* SKCropNode+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKCropNode+Marshal.swift"; sourceTree = "<group>"; };
+		AEBD033D1C8672A900D94D5F /* SKEffectNode+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKEffectNode+Marshal.swift"; sourceTree = "<group>"; };
+		AEBD033F1C86746F00D94D5F /* SKScene+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKScene+Marshal.swift"; sourceTree = "<group>"; };
+		AEBD03411C8677CD00D94D5F /* SKLightNode+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKLightNode+Marshal.swift"; sourceTree = "<group>"; };
+		AEBD03431C86795100D94D5F /* SKFieldNode+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKFieldNode+Marshal.swift"; sourceTree = "<group>"; };
+		AEBD03451C867B9800D94D5F /* SKCameraNode+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKCameraNode+Marshal.swift"; sourceTree = "<group>"; };
+		AEBD03471C867C6600D94D5F /* SKAudioNode+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAudioNode+Marshal.swift"; sourceTree = "<group>"; };
 		AED371AB1C8636F200494008 /* UIColor+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Marshal.swift"; sourceTree = "<group>"; };
 		AFBED24F1C7E1AAB00622331 /* Marshal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Marshal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBED2521C7E1AAB00622331 /* Marshal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Marshal.h; sourceTree = "<group>"; };
@@ -110,6 +164,7 @@
 				AE0243431C81474300E78609 /* Foundation */,
 				AE0243441C81474300E78609 /* JSON */,
 				AE0243451C81474300E78609 /* simd */,
+				AEBD030E1C863DAD00D94D5F /* SpriteKit */,
 				AED371AA1C8636C400494008 /* UIKit */,
 				AE0243461C81476500E78609 /* MarshaledObject+Merge.swift */,
 			);
@@ -127,6 +182,7 @@
 		AE0243421C81474300E78609 /* CoreGraphics */ = {
 			isa = PBXGroup;
 			children = (
+				AEBD03111C8648F600D94D5F /* Enums */,
 				AE02434C1C8149EC00E78609 /* CoreGraphics+ValueType.swift */,
 				AE02434E1C814CD200E78609 /* CoreGraphics+Marshaling.swift */,
 				AE0243501C814CE400E78609 /* CoreGraphics+Unmarshaling.swift */,
@@ -159,6 +215,71 @@
 				AE0243581C814FF900E78609 /* simd+Unmarshaling.swift */,
 			);
 			path = simd;
+			sourceTree = "<group>";
+		};
+		AEBD030E1C863DAD00D94D5F /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				AEBD03161C864A0F00D94D5F /* Enums */,
+				AEBD03291C864FAE00D94D5F /* Nodes */,
+				AEBD032A1C864FAE00D94D5F /* Physics */,
+				AEBD03251C864DC300D94D5F /* SKKeyframeSequence+Marshal.swift */,
+				AEBD03271C864ECD00D94D5F /* SKReachConstraints+Marshal.swift */,
+				AEBD030F1C863DE800D94D5F /* SKView+Marshal.swift */,
+			);
+			path = SpriteKit;
+			sourceTree = "<group>";
+		};
+		AEBD03111C8648F600D94D5F /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				AEBD03121C86491400D94D5F /* CGLineCap+String.swift */,
+				AEBD03141C8649A300D94D5F /* CGLineJoin+String.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		AEBD03161C864A0F00D94D5F /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				AEBD03171C864A3700D94D5F /* SKBlendMode+String.swift */,
+				AEBD03191C864AA700D94D5F /* SKInterpolationMode+String.swift */,
+				AEBD031B1C864B0000D94D5F /* SKLabelHorizontalAlignmentMode+String.swift */,
+				AEBD031D1C864B5900D94D5F /* SKLabelVerticalAlignmentMode+String.swift */,
+				AEBD031F1C864BD000D94D5F /* SKParticleRenderOrder+String.swift */,
+				AEBD03211C864C4700D94D5F /* SKRepeatMode+String.swift */,
+				AEBD03231C864CC600D94D5F /* SKSceneScaleMode+String.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		AEBD03291C864FAE00D94D5F /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				AEBD032F1C8656A100D94D5F /* SKNode+Marshal.swift */,
+				AEBD03311C865D8000D94D5F /* SKSpriteNode+Marshal.swift */,
+				AEBD03331C86619700D94D5F /* SKVideoNode+Marshal.swift */,
+				AEBD03351C86629F00D94D5F /* SKLabelNode+Marshal.swift */,
+				AEBD03371C86650900D94D5F /* SKShapeNode+Marshal.swift */,
+				AEBD03391C86687C00D94D5F /* SKEmitterNode+Marshal.swift */,
+				AEBD033B1C86718E00D94D5F /* SKCropNode+Marshal.swift */,
+				AEBD033D1C8672A900D94D5F /* SKEffectNode+Marshal.swift */,
+				AEBD033F1C86746F00D94D5F /* SKScene+Marshal.swift */,
+				AEBD03411C8677CD00D94D5F /* SKLightNode+Marshal.swift */,
+				AEBD03431C86795100D94D5F /* SKFieldNode+Marshal.swift */,
+				AEBD03451C867B9800D94D5F /* SKCameraNode+Marshal.swift */,
+				AEBD03471C867C6600D94D5F /* SKAudioNode+Marshal.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		AEBD032A1C864FAE00D94D5F /* Physics */ = {
+			isa = PBXGroup;
+			children = (
+				AEBD032D1C86557900D94D5F /* SKPhysicsWorld+Marshal.swift */,
+				AEBD032B1C86511A00D94D5F /* SKPhysicsBody+Marshal.swift */,
+			);
+			path = Physics;
 			sourceTree = "<group>";
 		};
 		AED371AA1C8636C400494008 /* UIKit */ = {
@@ -336,23 +457,50 @@
 				AFBED27E1C7F699600622331 /* UnmarshalUpdating.swift in Sources */,
 				AFBED2721C7E1DA800622331 /* Marshaling.swift in Sources */,
 				AE0243491C8147FA00E78609 /* JSONParser+parse.swift in Sources */,
+				AEBD03441C86795100D94D5F /* SKFieldNode+Marshal.swift in Sources */,
+				AEBD03181C864A3700D94D5F /* SKBlendMode+String.swift in Sources */,
+				AEBD03131C86491400D94D5F /* CGLineCap+String.swift in Sources */,
+				AEBD03281C864ECD00D94D5F /* SKReachConstraints+Marshal.swift in Sources */,
 				AE02434D1C8149EC00E78609 /* CoreGraphics+ValueType.swift in Sources */,
+				AEBD03401C86746F00D94D5F /* SKScene+Marshal.swift in Sources */,
+				AEBD031E1C864B5900D94D5F /* SKLabelVerticalAlignmentMode+String.swift in Sources */,
 				AFBED2701C7E1CF100622331 /* Error.swift in Sources */,
 				AED371AC1C8636F200494008 /* UIColor+Marshal.swift in Sources */,
+				AEBD032E1C86557900D94D5F /* SKPhysicsWorld+Marshal.swift in Sources */,
+				AEBD03481C867C6600D94D5F /* SKAudioNode+Marshal.swift in Sources */,
+				AEBD031A1C864AA700D94D5F /* SKInterpolationMode+String.swift in Sources */,
+				AEBD03381C86650900D94D5F /* SKShapeNode+Marshal.swift in Sources */,
+				AEBD033E1C8672A900D94D5F /* SKEffectNode+Marshal.swift in Sources */,
+				AEBD033C1C86718E00D94D5F /* SKCropNode+Marshal.swift in Sources */,
+				AEBD03341C86619700D94D5F /* SKVideoNode+Marshal.swift in Sources */,
+				AEBD031C1C864B0000D94D5F /* SKLabelHorizontalAlignmentMode+String.swift in Sources */,
 				AE0243471C81476500E78609 /* MarshaledObject+Merge.swift in Sources */,
 				AFBED27C1C7F65BB00622331 /* Unmarshaling.swift in Sources */,
+				AEBD03461C867B9800D94D5F /* SKCameraNode+Marshal.swift in Sources */,
 				AFBED2761C7E1E5100622331 /* JSON.swift in Sources */,
+				AEBD03221C864C4700D94D5F /* SKRepeatMode+String.swift in Sources */,
+				AEBD03421C8677CD00D94D5F /* SKLightNode+Marshal.swift in Sources */,
 				AFBED26E1C7E1CA900622331 /* ValueType.swift in Sources */,
+				AEBD03301C8656A100D94D5F /* SKNode+Marshal.swift in Sources */,
+				AEBD03361C86629F00D94D5F /* SKLabelNode+Marshal.swift in Sources */,
 				AE0243591C814FF900E78609 /* simd+Unmarshaling.swift in Sources */,
 				AFBED26A1C7E1B0500622331 /* MarshaledObject.swift in Sources */,
+				AEBD03261C864DC300D94D5F /* SKKeyframeSequence+Marshal.swift in Sources */,
+				AEBD03201C864BD000D94D5F /* SKParticleRenderOrder+String.swift in Sources */,
 				AE0243531C814E9800E78609 /* NSDate+ValueType.swift in Sources */,
+				AEBD03321C865D8000D94D5F /* SKSpriteNode+Marshal.swift in Sources */,
 				AFBED26C1C7E1B3500622331 /* KeyType.swift in Sources */,
 				AE0243511C814CE400E78609 /* CoreGraphics+Unmarshaling.swift in Sources */,
+				AEBD03101C863DE800D94D5F /* SKView+Marshal.swift in Sources */,
 				AE02434B1C81490200E78609 /* JSONCollectionType+PrettyPrinted.swift in Sources */,
+				AEBD032C1C86511A00D94D5F /* SKPhysicsBody+Marshal.swift in Sources */,
+				AEBD033A1C86687C00D94D5F /* SKEmitterNode+Marshal.swift in Sources */,
 				AE0243571C814FC000E78609 /* simd+Marshaling.swift in Sources */,
+				AEBD03241C864CC600D94D5F /* SKSceneScaleMode+String.swift in Sources */,
 				AFBED2741C7E1E0800622331 /* Operators.swift in Sources */,
 				AE0243551C814F7700E78609 /* simd+ValueType.swift in Sources */,
 				AE02434F1C814CD200E78609 /* CoreGraphics+Marshaling.swift in Sources */,
+				AEBD03151C8649A300D94D5F /* CGLineJoin+String.swift in Sources */,
 				AE02435B1C81514E00E78609 /* NSColor+Marshal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
