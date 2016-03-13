@@ -23,6 +23,7 @@
 		AE0243591C814FF900E78609 /* simd+Unmarshaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0243581C814FF900E78609 /* simd+Unmarshaling.swift */; };
 		AE02435B1C81514E00E78609 /* NSColor+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02435A1C81514E00E78609 /* NSColor+Marshal.swift */; };
 		AE3FC3C41C95CF9A007E8584 /* MarshaledObject+setValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3FC3C31C95CF9A007E8584 /* MarshaledObject+setValue.swift */; };
+		AE3FC3C61C95D207007E8584 /* MarshaledObject+LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3FC3C51C95D207007E8584 /* MarshaledObject+LocalizedStrings.swift */; };
 		AE5720E71C7FE97E00D45DE3 /* TestSimpleSet.json in Resources */ = {isa = PBXBuildFile; fileRef = AE5720E61C7FE97E00D45DE3 /* TestSimpleSet.json */; };
 		AEBD03101C863DE800D94D5F /* SKView+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD030F1C863DE800D94D5F /* SKView+Marshal.swift */; };
 		AEBD03131C86491400D94D5F /* CGLineCap+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBD03121C86491400D94D5F /* CGLineCap+String.swift */; };
@@ -93,6 +94,7 @@
 		AE0243581C814FF900E78609 /* simd+Unmarshaling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "simd+Unmarshaling.swift"; sourceTree = "<group>"; };
 		AE02435A1C81514E00E78609 /* NSColor+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+Marshal.swift"; sourceTree = "<group>"; };
 		AE3FC3C31C95CF9A007E8584 /* MarshaledObject+setValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MarshaledObject+setValue.swift"; sourceTree = "<group>"; };
+		AE3FC3C51C95D207007E8584 /* MarshaledObject+LocalizedStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MarshaledObject+LocalizedStrings.swift"; sourceTree = "<group>"; };
 		AE5720E61C7FE97E00D45DE3 /* TestSimpleSet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestSimpleSet.json; sourceTree = "<group>"; };
 		AEBD030F1C863DE800D94D5F /* SKView+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKView+Marshal.swift"; sourceTree = "<group>"; };
 		AEBD03121C86491400D94D5F /* CGLineCap+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGLineCap+String.swift"; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				AED371AA1C8636C400494008 /* UIKit */,
 				AE0243461C81476500E78609 /* MarshaledObject+Merge.swift */,
 				AE3FC3C31C95CF9A007E8584 /* MarshaledObject+setValue.swift */,
+				AE3FC3C51C95D207007E8584 /* MarshaledObject+LocalizedStrings.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -476,6 +479,7 @@
 				AEBD033E1C8672A900D94D5F /* SKEffectNode+Marshal.swift in Sources */,
 				AEBD033C1C86718E00D94D5F /* SKCropNode+Marshal.swift in Sources */,
 				AEBD03341C86619700D94D5F /* SKVideoNode+Marshal.swift in Sources */,
+				AE3FC3C61C95D207007E8584 /* MarshaledObject+LocalizedStrings.swift in Sources */,
 				AEBD031C1C864B0000D94D5F /* SKLabelHorizontalAlignmentMode+String.swift in Sources */,
 				AE0243471C81476500E78609 /* MarshaledObject+Merge.swift in Sources */,
 				AFBED27C1C7F65BB00622331 /* Unmarshaling.swift in Sources */,
