@@ -33,11 +33,12 @@ extension NSColor: ValueType {
 
 extension NSColor: Marshaling {
     public func marshal() -> MarshaledObject {
+        let color = self.colorUsingColorSpace(NSColorSpace.deviceRGBColorSpace()) ?? self
         var result = MarshaledObject()
-        result["red"] = self.redComponent
-        result["green"] = self.greenComponent
-        result["blue"] = self.blueComponent
-        result["alpha"] = self.alphaComponent
+        result["red"] = color.redComponent
+        result["green"] = color.greenComponent
+        result["blue"] = color.blueComponent
+        result["alpha"] = color.alphaComponent
         
         return result
     }
