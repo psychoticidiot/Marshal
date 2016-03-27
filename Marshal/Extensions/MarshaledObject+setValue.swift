@@ -15,7 +15,7 @@ import Foundation
 
 
 public extension Dictionary where Key: KeyType {
-    private mutating func setValue(value: Value, forKeys keys: ArraySlice<String>) {
+    private mutating func setValue(value: Value?, forKeys keys: ArraySlice<String>) {
         guard let firstKey = keys.first as? Key else {
             return
         }
@@ -33,7 +33,7 @@ public extension Dictionary where Key: KeyType {
         }
     }
     
-    public mutating func setValue(value: Value, forKey key: Key) {
+    public mutating func setValue(value: Value?, forKey key: Key) {
         let splitKeys = key.stringValue.componentsSeparatedByString(".")
         self.setValue(value, forKeys: ArraySlice(splitKeys))
     }
