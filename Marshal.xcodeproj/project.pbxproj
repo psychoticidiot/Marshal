@@ -22,6 +22,7 @@
 		AE0243571C814FC000E78609 /* simd+Marshaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0243561C814FC000E78609 /* simd+Marshaling.swift */; };
 		AE0243591C814FF900E78609 /* simd+Unmarshaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0243581C814FF900E78609 /* simd+Unmarshaling.swift */; };
 		AE02435B1C81514E00E78609 /* NSColor+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02435A1C81514E00E78609 /* NSColor+Marshal.swift */; };
+		AE151A811CA831BB00B0E544 /* NSFont+Marshal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE151A801CA831BB00B0E544 /* NSFont+Marshal.swift */; };
 		AE3FC3C41C95CF9A007E8584 /* MarshaledObject+setValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3FC3C31C95CF9A007E8584 /* MarshaledObject+setValue.swift */; };
 		AE3FC3C61C95D207007E8584 /* MarshaledObject+LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3FC3C51C95D207007E8584 /* MarshaledObject+LocalizedStrings.swift */; };
 		AE5720E71C7FE97E00D45DE3 /* TestSimpleSet.json in Resources */ = {isa = PBXBuildFile; fileRef = AE5720E61C7FE97E00D45DE3 /* TestSimpleSet.json */; };
@@ -93,6 +94,7 @@
 		AE0243561C814FC000E78609 /* simd+Marshaling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "simd+Marshaling.swift"; sourceTree = "<group>"; };
 		AE0243581C814FF900E78609 /* simd+Unmarshaling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "simd+Unmarshaling.swift"; sourceTree = "<group>"; };
 		AE02435A1C81514E00E78609 /* NSColor+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+Marshal.swift"; sourceTree = "<group>"; };
+		AE151A801CA831BB00B0E544 /* NSFont+Marshal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSFont+Marshal.swift"; sourceTree = "<group>"; };
 		AE3FC3C31C95CF9A007E8584 /* MarshaledObject+setValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MarshaledObject+setValue.swift"; sourceTree = "<group>"; };
 		AE3FC3C51C95D207007E8584 /* MarshaledObject+LocalizedStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MarshaledObject+LocalizedStrings.swift"; sourceTree = "<group>"; };
 		AE5720E61C7FE97E00D45DE3 /* TestSimpleSet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestSimpleSet.json; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				AE02435A1C81514E00E78609 /* NSColor+Marshal.swift */,
+				AE151A801CA831BB00B0E544 /* NSFont+Marshal.swift */,
 			);
 			path = AppKit;
 			sourceTree = "<group>";
@@ -495,6 +498,7 @@
 				AFBED26A1C7E1B0500622331 /* MarshaledObject.swift in Sources */,
 				AEBD03261C864DC300D94D5F /* SKKeyframeSequence+Marshal.swift in Sources */,
 				AEBD03201C864BD000D94D5F /* SKParticleRenderOrder+String.swift in Sources */,
+				AE151A811CA831BB00B0E544 /* NSFont+Marshal.swift in Sources */,
 				AE0243531C814E9800E78609 /* NSDate+ValueType.swift in Sources */,
 				AEBD03321C865D8000D94D5F /* SKSpriteNode+Marshal.swift in Sources */,
 				AFBED26C1C7E1B3500622331 /* KeyType.swift in Sources */,
